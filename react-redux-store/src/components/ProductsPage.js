@@ -1,11 +1,13 @@
 import React from 'react';
 
-const ProductsPage = () => {
+export default function ProductsPage(props) {
     return (
         <div>
-             <h1>Products</h1>
+             {props.productsFromCache.name}
+            {props.productsFromCache.price}
+            {/* {props.productsFromCache.title} */}
+            <img src={props.productsFromCache.image} alt="" />
         </div>
-    );
+    )
 }
 
-export default ProductsPage;
