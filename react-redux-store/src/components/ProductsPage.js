@@ -1,11 +1,11 @@
 import React from 'react';
 
-const mensShirt = () => {
+const ProductsPage = () => {
     return (
         <div>
-            
+             <h1>Products</h1>
         </div>
     );
 }
 
-export default mensShirt;
+export default ProductsPage;
