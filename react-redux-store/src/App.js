@@ -1,10 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
+import HomePage from "./components/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      <h1>React Redux Store</h1>
+      <div>
+        <Router
+      </div>
+
     </div>
   );
 }
